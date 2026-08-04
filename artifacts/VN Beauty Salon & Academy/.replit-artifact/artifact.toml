@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Rupaliz Beauty World"
+version = "1.0.0"
+id = "artifacts/rupaliz-beauty"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21039
+
+[services.development]
+run = "pnpm --filter @workspace/rupaliz-beauty run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/rupaliz-beauty", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/rupaliz-beauty/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21039"
+BASE_PATH = "/"

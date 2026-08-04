@@ -1,0 +1,551 @@
+Project Overview
+
+Design and develop an ultra-premium, modern, luxury beauty salon website for Rupaliz Beauty World.
+
+The website should deliver the feeling of a high-end salon and beauty studio through elegant layouts, cinematic animations, smooth scrolling, refined typography, and immersive visuals.
+
+The experience should feel comparable to award-winning luxury beauty and wellness websites, while maintaining a unique identity.
+
+Business Information
+
+Business Name
+Rupaliz Beauty World
+
+Tagline
+
+Where Beauty Meets Perfection
+
+Location
+
+Model Town Road,
+Opposite Mayor House,
+Nikku Park Road,
+Jalandhar,
+Punjab 144003
+
+Phone
+
++91 98552 21616
+
+Business Hours
+
+Sunday – 10:00 AM – 8:00 PM
+
+Monday – 10:00 AM – 8:00 PM
+
+Tuesday – Closed
+
+Wednesday – 10:00 AM – 8:00 PM
+
+Thursday – 10:00 AM – 8:00 PM
+
+Friday – 10:00 AM – 8:00 PM
+
+Saturday – 10:00 AM – 8:00 PM
+
+Services
+
+Hair
+
+Skin
+
+Makeup
+
+Nail Studio
+
+Aesthetic Treatments
+
+Beauty Academy
+
+Website Goals
+
+Build trust instantly
+
+Show premium quality
+
+Increase appointment bookings
+
+Highlight luxury services
+
+Promote academy courses
+
+Improve local SEO
+
+Create a memorable first impression
+
+Design Style
+
+Luxury Beauty Salon
+
+Modern Editorial
+
+Minimalist
+
+Soft Feminine
+
+Premium
+
+Elegant
+
+Clean
+
+Expensive
+
+Warm
+
+Relaxing
+
+Color Palette
+
+Background
+
+#FAF7F3
+
+Section Background
+
+#F3ECE4
+
+Primary
+
+#1F1F1F
+
+Secondary
+
+#666666
+
+Luxury Gold
+
+#C8A96A
+
+Rose Gold
+
+#D8A48F
+
+Accent
+
+#B8866B
+
+White
+
+#FFFFFF
+
+Footer
+
+#1B1B1B
+
+Typography
+
+Headings
+
+Cormorant Garamond
+
+or
+
+Canela
+
+Body
+
+Inter
+
+or
+
+Manrope
+
+Buttons
+
+Semi Bold
+
+Spacing
+
+Luxury editorial style
+
+Sections
+Hero
+
+Full screen
+
+Luxury salon background video
+
+OR
+
+Beautiful woman with elegant hairstyle
+
+Soft golden lighting
+
+Large heading
+
+Example
+
+"Luxury Beauty Experience in Jalandhar"
+
+Subheading
+
+Hair • Skin • Makeup • Nails • Aesthetics • Academy
+
+CTA
+
+Book Appointment
+
+Explore Services
+
+Scroll Indicator
+
+Animated
+
+Hero Animation
+
+Initial Load
+
+Background scale
+
+1.15 → 1
+
+Fade in
+
+Text reveal line by line
+
+Button slides upward
+
+Navbar fades down
+
+Luxury cinematic timing
+
+About
+
+Large image
+
+Founder story
+
+Luxury interior photos
+
+Minimal text
+
+Fade animations
+
+Services
+
+Large luxury cards
+
+Hair
+
+Skin
+
+Makeup
+
+Nails
+
+Aesthetics
+
+Academy
+
+Each card contains
+
+Luxury image
+
+Description
+
+Learn More button
+
+Hover animation
+
+Image zoom
+
+Soft shadow
+
+Gold border
+
+Why Choose Us
+
+Premium Products
+
+Certified Experts
+
+Modern Equipment
+
+Personalized Consultation
+
+Luxury Ambience
+
+Professional Makeup Artists
+
+Award Winning Salon
+
+Animated icons
+
+Academy
+
+Highlight professional beauty courses
+
+Hair Academy
+
+Professional Makeup
+
+Skin Courses
+
+Nail Technician Training
+
+Certification
+
+Career Support
+
+Large CTA
+
+Enroll Now
+
+Before & After
+
+Interactive slider
+
+Image comparison
+
+Smooth drag animation
+
+Gallery
+
+Luxury masonry gallery
+
+Hover zoom
+
+Lightbox
+
+Elegant animation
+
+Testimonials
+
+Glass cards
+
+Customer reviews
+
+5-star ratings
+
+Autoplay slider
+
+Fade transition
+
+Call To Action
+
+Ready to Transform Your Look?
+
+Book Your Appointment Today
+
+Luxury button
+
+Contact
+
+Google Map
+
+Business Address
+
+Phone
+
+Opening Hours
+
+Contact Form
+
+WhatsApp Button
+
+Footer
+
+Logo
+
+Quick Links
+
+Services
+
+Working Hours
+
+Contact
+
+Social Icons
+
+Copyright
+
+Navbar
+
+Transparent
+
+Changes on scroll
+
+Glass effect
+
+Blur
+
+Sticky
+
+Logo left
+
+Menu right
+
+Book Appointment button
+
+Scroll Experience
+
+Use Lenis
+
+Smooth inertia
+
+Silky movement
+
+No lag
+
+60 FPS
+
+Animation Style
+
+GSAP
+
+ScrollTrigger
+
+Framer Motion
+
+SplitType
+
+Every section fades upward
+
+Opacity
+
+0 → 1
+
+Translate Y
+
+100px → 0
+
+Duration
+
+1.2 sec
+
+Power4 easing
+
+Text Animation
+
+Reveal by words
+
+Luxury stagger
+
+Mask animation
+
+Images
+
+Scale
+
+1.2 → 1
+
+Parallax
+
+Rounded corners
+
+Luxury shadow
+
+Cards
+
+Hover
+
+Lift
+
+Glow
+
+Image zoom
+
+Button animation
+
+Buttons
+
+Rounded
+
+Gold outline
+
+Fill animation
+
+Arrow slides
+
+Ripple effect
+
+Cursor
+
+Custom cursor
+
+Luxury circle
+
+Hover states
+
+View
+
+Book
+
+Explore
+
+Micro Interactions
+
+Floating icons
+
+Animated underline
+
+Ripple button
+
+Hover glow
+
+Card elevation
+
+Image tilt
+
+Soft shadow
+
+Background Effects
+
+Floating gradients
+
+Subtle noise texture
+
+Elegant shapes
+
+Light particles
+
+Soft blur blobs
+
+Performance
+
+Next.js
+
+React
+
+TypeScript
+
+TailwindCSS
+
+GSAP
+
+Lenis
+
+Framer Motion
+
+Next Image Optimization
+
+Lazy Loading
+
+Dynamic Imports
+
+GPU Accelerated Animations
+
+SEO
+
+Target Keywords
+
+Beauty Salon Jalandhar
+
+Best Makeup Artist Jalandhar
+
+Hair Salon Jalandhar
+
+Bridal Makeup Jalandhar
+
+Skin Treatment Jalandhar
+
+Beauty Academy Jalandhar
+
+Nail Studio Jalandhar
+
+Luxury Salon Punjab
+
+Overall Feel
+
+The website should evoke elegance, confidence, and relaxation. Motion should be subtle and polished, with cinematic transitions, smooth scrolling, premium typography, spacious layouts, and high-quality visuals. Every interaction should reinforce the perception of a modern luxury beauty destination, encouraging visitors to book services or enroll in the academy.

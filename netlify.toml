@@ -1,0 +1,13 @@
+[build]
+  # Run from the monorepo root - Netlify automatically handles packagePath
+  command = "pnpm install --frozen-lockfile && pnpm --filter @workspace/rupaliz-beauty run build"
+  publish = "artifacts/rupaliz-beauty/dist/public"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
