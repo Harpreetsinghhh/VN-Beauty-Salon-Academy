@@ -168,7 +168,7 @@ importers:
         specifier: ~5.9.3
         version: 5.9.3
 
-  artifacts/VN Beauty Salon & Academy:
+  artifacts/VN-Beauty-Salon-Academy:
     dependencies:
       '@gsap/react':
         specifier: ^2.1.2
