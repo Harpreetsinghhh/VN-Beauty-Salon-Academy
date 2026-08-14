@@ -36,7 +36,7 @@ const services = [
     id: 6,
     title: "Beauty Academy",
     description: "Professional certification courses empowering the next generation of beauty experts.",
-    image: "/images/service-academy.jpg"
+    image: "/images/service-academy.png"
   }
 ];
 
