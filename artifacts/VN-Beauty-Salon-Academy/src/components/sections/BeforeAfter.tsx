@@ -105,7 +105,7 @@ export function BeforeAfter() {
               style={{ width: `${sliderPosition}%` }}
             >
               <img 
-                src="/images/before.png" 
+                src="/images/before.PNG" 
                 alt="Before Transformation" 
                 className="absolute inset-0 h-full object-cover"
                 style={{ width: containerRef.current?.offsetWidth || '100vw', maxWidth: 'none' }}
