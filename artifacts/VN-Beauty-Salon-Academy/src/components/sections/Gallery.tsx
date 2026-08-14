@@ -4,8 +4,8 @@ import { useInView } from 'react-intersection-observer';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const galleryImages = [
-  { id: 1, src: '/images/gallery-1.jpg', size: 'large' },
-  { id: 2, src: '/images/gallery-2.jpg', size: 'small' },
+  { id: 1, src: '/images/gallery-1.png', size: 'large' },
+  { id: 2, src: '/images/gallery-2.png', size: 'small' },
   { id: 3, src: '/images/gallery-3.jpg', size: 'small' },
   { id: 4, src: '/images/gallery-4.jpg', size: 'medium' },
   { id: 5, src: '/images/gallery-5.jpg', size: 'large' },
