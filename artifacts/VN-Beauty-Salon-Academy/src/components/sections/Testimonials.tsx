@@ -33,6 +33,19 @@ const testimonials = [
     date: "March 2024",
     text: "My go-to place for nails and skin treatments. The ambience is so relaxing, it's my favorite way to pamper myself on weekends."
   }
+  ,
+  {
+    id: 6,
+    name: "Anita Singh",
+    date: "May 2025",
+    text: "Absolutely love the new anti-aging facial I tried last month. Visible results and the staff were incredibly attentive."
+  },
+  {
+    id: 7,
+    name: "Meera Joshi",
+    date: "January 2026",
+    text: "Enrolled in a masterclass at the academy in 2025 and the curriculum was outstanding — highly recommended for aspiring makeup artists."
+  }
 ];
 
 export function Testimonials() {
