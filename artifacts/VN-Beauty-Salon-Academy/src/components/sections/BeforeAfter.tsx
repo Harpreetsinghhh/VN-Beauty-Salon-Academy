@@ -89,7 +89,7 @@ export function BeforeAfter() {
             {/* After Image (Background) */}
             <div className="absolute inset-0 w-full h-full pointer-events-none">
               <img 
-                src="/images/after.jpg" 
+                src="/images/after.PNG" 
                 alt="After Transformation" 
                 className="absolute inset-0 w-full h-full object-cover"
                 draggable={false}
