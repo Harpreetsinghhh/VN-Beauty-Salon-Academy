@@ -13,7 +13,7 @@ export function Footer() {
           <div className="flex flex-col">
             <div className="flex flex-col items-start mb-6">
 <h2 className="font-serif text-3xl text-white tracking-widest uppercase">
-                VN
+                Dubai Beauty
               </h2>
               <div className="w-12 h-[1px] bg-gold my-1"></div>
               <span className="text-[10px] text-white/60 uppercase tracking-[0.3em]">
@@ -24,16 +24,16 @@ export function Footer() {
               Where craft meets confidence. Experience luxury beauty treatments in an environment designed for royalty.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/10 transition-all duration-300">
+              <a href="https://www.instagram.com/dubai_beauty_salon_academy" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/10 transition-all duration-300">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/10 transition-all duration-300">
+              <a href="https://www.facebook.com/106269829028864?ref=NONE_xav_ig_profile_page_web" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/10 transition-all duration-300">
                 <Facebook size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/10 transition-all duration-300">
                 <Youtube size={18} />
               </a>
-<a href="https://wa.me/917009159596" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/10 transition-all duration-300">
+<a href="https://wa.me/917385483310" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/10 transition-all duration-300">
                 <SiWhatsapp size={18} />
               </a>
             </div>
@@ -66,13 +66,11 @@ export function Footer() {
             <ul className="flex flex-col gap-4 font-sans text-sm font-light text-white/60">
               <li className="leading-relaxed">
 <span className="text-white block mb-1">Address:</span>
-                Kishan Pura Chowk, Near Baba Balak Nath Mandir,<br />
-                Laxmi Pura, Jalandhar,<br />
-                Punjab 144004
+                Malegaon, Maharashtra
               </li>
               <li>
                 <span className="text-white block mb-1">Phone:</span>
-                <a href="tel:+917009159596" className="hover:text-gold transition-colors">+91 70091 59596</a>
+                <a href="tel:+917385483310" className="hover:text-gold transition-colors">7385483310</a>
               </li>
               <li>
                 <span className="text-white block mb-1">Hours:</span>
@@ -88,7 +86,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs font-sans text-white/40 tracking-wider">
-&copy; {currentYear} VN BEAUTY SALON & ACADEMY. ALL RIGHTS RESERVED.
+&copy; {currentYear} DUBAI BEAUTY SALON & ACADEMY BY SHARMEEN HINDUSTANWALA. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-6 text-xs font-sans text-white/40 tracking-wider">
             <a href="#" className="hover:text-white transition-colors">PRIVACY POLICY</a>

@@ -46,7 +46,7 @@ export function Academy() {
             >
               <span className="text-gold uppercase tracking-[0.3em] text-xs font-medium mb-4 block">Education</span>
               <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 leading-tight">
-                VN Beauty <span className="italic text-gold">Academy</span>
+                Dubai Beauty Salon & <span className="italic text-gold">Academy by SHARMEEN HINDUSTANWALA</span>
               </h2>
               <div className="w-16 h-[1px] bg-gold mb-8"></div>
               

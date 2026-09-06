@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { SiWhatsapp } from 'react-icons/si';
 
-const PHONE_NUMBER = '917009159596'; // Without + or spaces
+const PHONE_NUMBER = '917385483310'; // Without + or spaces
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  'Hello! I would like to book an appointment at VN Beauty Salon & Academy.'
+  'Hello! I would like to book an appointment at Dubai Beauty Salon & Academy by SHARMEEN HINDUSTANWALA.'
 );
 
 export function WhatsAppButton() {

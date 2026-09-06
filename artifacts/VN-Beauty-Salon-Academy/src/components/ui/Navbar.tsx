@@ -46,7 +46,7 @@ export function Navbar() {
         >
           <div className="flex items-center gap-2">
 <h1 className={`font-serif text-3xl md:text-4xl tracking-widest uppercase transition-colors duration-300 ${isScrolled ? 'text-foreground' : 'text-white'}`}>
-              VN
+              Dubai Beauty
             </h1>
           </div>
           <div className={`w-12 h-[1px] my-1 transition-colors duration-300 ${isScrolled ? 'bg-gold' : 'bg-gold/80'}`}></div>

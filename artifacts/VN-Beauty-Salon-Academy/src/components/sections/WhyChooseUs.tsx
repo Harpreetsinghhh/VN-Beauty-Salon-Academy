@@ -26,7 +26,7 @@ const features = [
   {
     icon: <MapPin className="w-6 h-6" />,
     title: "Luxury Ambience",
-    desc: "A relaxing, beautifully designed space in Jalandhar."
+    desc: "A relaxing, beautifully designed space in Malegaon."
   },
   {
     icon: <Star className="w-6 h-6" />,
@@ -73,7 +73,7 @@ export function WhyChooseUs() {
             viewport={{ once: true }}
             className="text-gold uppercase tracking-[0.3em] text-xs font-medium mb-4 block"
           >
-            The VN Difference
+            The Dubai Beauty Difference
           </motion.span>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -82,7 +82,7 @@ export function WhyChooseUs() {
             transition={{ delay: 0.1 }}
             className="font-serif text-4xl md:text-5xl mb-6"
           >
-            Why Choose <span className="italic text-gold">VN</span>
+            Why Choose <span className="italic text-gold">Dubai Beauty</span>
           </motion.h2>
         </div>
 

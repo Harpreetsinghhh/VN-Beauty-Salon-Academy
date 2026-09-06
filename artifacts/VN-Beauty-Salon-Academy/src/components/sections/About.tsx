@@ -34,7 +34,7 @@ export function About() {
               <div className="absolute inset-0 border border-gold transform translate-x-4 translate-y-4"></div>
               <img 
                 src="/images/about.jpg" 
-                alt="VN Beauty Salon & Academy Founder" 
+                alt="Dubai Beauty Salon & Academy by SHARMEEN HINDUSTANWALA Founder"
                 className="w-full h-full object-cover shadow-2xl relative z-10"
               />
               {/* Floating badge */}
@@ -64,7 +64,7 @@ export function About() {
               
               <div className="space-y-6 text-text-secondary font-light text-base md:text-lg leading-relaxed">
                 <p>
-                  At VN Beauty Salon & Academy, we believe that true beauty is an experience, not just a service. Situated in the heart of Jalandhar, our studio has been meticulously designed to offer a sanctuary of elegance, sophistication, and unparalleled craftsmanship.
+                  At Dubai Beauty Salon & Academy by SHARMEEN HINDUSTANWALA, we believe that true beauty is an experience, not just a service. Situated in the heart of Malegaon, our studio has been meticulously designed to offer a sanctuary of elegance, sophistication, and unparalleled craftsmanship.
                 </p>
                 <p>
                   Every client who walks through our doors is treated to a personalized journey. From bespoke bridal makeup to advanced aesthetic treatments, our team of highly trained professionals uses only premium global products and the latest techniques.

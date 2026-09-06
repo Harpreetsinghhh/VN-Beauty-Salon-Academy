@@ -67,20 +67,20 @@ export function Footer() {
                 <span className="text-white font-serif text-xl font-bold italic">V</span>
               </div>
               <div>
-                <p className="font-serif text-xl font-medium leading-tight">VN</p>
-                <p className="text-[10px] uppercase tracking-[0.3em] text-gold/80">Beauty Salon & Academy</p>
+                <p className="font-serif text-xl font-medium leading-tight">Dubai Beauty</p>
+                <p className="text-[10px] uppercase tracking-[0.3em] text-gold/80">Salon & Academy by SHARMEEN HINDUSTANWALA</p>
               </div>
             </div>
             <p className="font-sans font-light text-white/50 text-sm leading-relaxed mb-8 max-w-xs">
-              Where Beauty Meets Perfection — Experience luxury beauty services in the heart of Jalandhar.
+              Where Beauty Meets Perfection — Experience Dubai Beauty Salon & Academy by SHARMEEN HINDUSTANWALA in the heart of Malegaon.
             </p>
             <div className="flex gap-3">
               {[Instagram, Facebook, Youtube].map((Icon, i) => (
                 <a
                   key={i}
-                  href={i === 0 ? 'https://www.instagram.com/vn_beauty_salon_academy' : '#'}
-                  target={i === 0 ? '_blank' : undefined}
-                  rel={i === 0 ? 'noopener noreferrer' : undefined}
+                  href={i === 0 ? 'https://www.instagram.com/dubai_beauty_salon_academy' : i === 1 ? 'https://www.facebook.com/106269829028864?ref=NONE_xav_ig_profile_page_web' : '#'}
+                  target={i < 2 ? '_blank' : undefined}
+                  rel={i < 2 ? 'noopener noreferrer' : undefined}
                   className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:bg-gold/10 transition-all duration-300 group"
                 >
                   <Icon className="w-4 h-4 text-white/60 group-hover:text-gold transition-colors" strokeWidth={1.5} />
@@ -147,11 +147,11 @@ className="mt-16 pt-12 border-t border-white/10 flex flex-col md:flex-row items-
           <div className="flex flex-wrap justify-center gap-6 md:gap-10 text-sm">
             <div className="flex items-center gap-2 text-white/50 hover:text-gold transition-colors">
               <MapPin className="w-4 h-4 text-gold" strokeWidth={1.5} />
-              <span className="font-light">Kishan Pura Chowk, Laxmi Pura, Jalandhar</span>
+              <span className="font-light">Malegaon, Maharashtra</span>
             </div>
             <div className="flex items-center gap-2 text-white/50 hover:text-gold transition-colors">
               <Phone className="w-4 h-4 text-gold" strokeWidth={1.5} />
-              <span className="font-light">+91 70091 59596</span>
+                <span className="font-light">7385483310</span>
             </div>
             <div className="flex items-center gap-2 text-white/50 hover:text-gold transition-colors">
               <Clock className="w-4 h-4 text-gold" strokeWidth={1.5} />
@@ -165,11 +165,11 @@ className="mt-16 pt-12 border-t border-white/10 flex flex-col md:flex-row items-
 <div className="border-t border-white/5 py-6">
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-[11px] uppercase tracking-widest font-light flex items-center gap-1">
-            &copy; {new Date().getFullYear()} VN Beauty Salon & Academy. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Dubai Beauty Salon & Academy by SHARMEEN HINDUSTANWALA. All Rights Reserved.
             <Heart className="w-3 h-3 text-gold ml-1 inline" strokeWidth={1.5} />
           </p>
           <p className="text-white/20 text-[10px] uppercase tracking-widest font-light">
-            Luxury Beauty Salon in Jalandhar
+            Malegaon&apos;s 1st Laser Salon
           </p>
         </div>
       </div>

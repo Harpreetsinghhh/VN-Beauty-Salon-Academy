@@ -55,10 +55,10 @@ export function Navbar() {
             </div>
             <div className="hidden sm:block">
               <p className={`font-serif text-lg md:text-xl font-medium leading-tight transition-colors duration-300 ${scrolled ? 'text-foreground' : 'text-white'}`}>
-                VN
+                Dubai Beauty
               </p>
               <p className={`text-[10px] uppercase tracking-[0.3em] transition-colors duration-300 ${scrolled ? 'text-gold' : 'text-gold/80'}`}>
-                Beauty Salon & Academy
+                Salon & Academy by SHARMEEN HINDUSTANWALA
               </p>
             </div>
           </button>
@@ -128,8 +128,8 @@ export function Navbar() {
                     </button>
                     
                     <div className="mt-8 text-[10px] uppercase tracking-[0.3em] text-text-secondary">
-                      <p className="mb-1">Kishan Pura Chowk, Jalandhar</p>
-                      <p>+91 70091 59596</p>
+                      <p className="mb-1">Dubai Beauty Salon &amp; Academy, Malegaon</p>
+                      <p>7385483310</p>
                     </div>
                   </div>
                 </div>

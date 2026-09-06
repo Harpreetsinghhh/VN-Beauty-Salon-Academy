@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Phone, MapPin, Clock, Send, ChevronDown, Instagram } from 'lucide-react';
+import { Phone, MapPin, Clock, Send, ChevronDown, Instagram, Facebook, Sparkles } from 'lucide-react';
 
 const servicesList = [
   'Hair Styling', 'Skin Clinic', 'Bridal Makeup', 'Nail Studio', 'Aesthetic Treatments', 'Beauty Academy'
@@ -209,7 +209,7 @@ export function Contact() {
             <div>
               <h3 className="font-serif text-2xl text-foreground mb-6">Visit Our Studio</h3>
               <p className="text-text-secondary font-light text-sm leading-relaxed mb-8">
-                Step into our world of beauty. We are located in Laxmi Pura, Jalandhar, waiting to welcome you with warmth and professionalism.
+                Step into our world of beauty. Visit us in Malegaon for expert beauty, laser, makeup, and skin care services.
               </p>
             </div>
 
@@ -221,10 +221,8 @@ export function Contact() {
                 <div>
                   <h4 className="text-xs uppercase tracking-widest text-text-secondary mb-1 font-medium">Address</h4>
                   <p className="text-foreground font-light">
-                    Kishan Pura Chowk,<br />
-                    Near Baba Balak Nath Mandir,<br />
-                    Laxmi Pura, Jalandhar,<br />
-                    Punjab 144004
+                    Malegaon<br />
+                    Maharashtra
                   </p>
                 </div>
               </div>
@@ -235,8 +233,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-xs uppercase tracking-widest text-text-secondary mb-1 font-medium">Phone</h4>
-                  <a href="tel:+917009159596" className="text-foreground font-light hover:text-gold transition-colors">
-                    +91 70091 59596
+                  <a href="tel:+917385483310" className="text-foreground font-light hover:text-gold transition-colors">
+                    7385483310
                   </a>
                 </div>
               </div>
@@ -257,17 +255,49 @@ export function Contact() {
 
               <div className="flex items-start gap-4 group">
                 <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0 group-hover:bg-gold/20 transition-colors">
+                  <Sparkles className="w-5 h-5 text-gold" strokeWidth={1.5} />
+                </div>
+                <div>
+                  <h4 className="text-xs uppercase tracking-widest text-text-secondary mb-2 font-medium">Our Expertise</h4>
+                  <div className="space-y-1 text-foreground font-light text-sm">
+                    <p>Malegaon&apos;s 1st Laser Salon</p>
+                    <p>Organizer of Malegaon Fashion Mela</p>
+                    <p>Pro Makeup Artist / Bridal Makeup Expert</p>
+                    <p>Advanced Skin Specialist &amp; Expert</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 group">
+                <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0 group-hover:bg-gold/20 transition-colors">
                   <Instagram className="w-5 h-5 text-gold" strokeWidth={1.5} />
                 </div>
                 <div>
                   <h4 className="text-xs uppercase tracking-widest text-text-secondary mb-1 font-medium">Instagram</h4>
                   <a
-                    href="https://www.instagram.com/vn_beauty_salon_academy"
+                    href="https://www.instagram.com/dubai_beauty_salon_academy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-foreground font-light hover:text-gold transition-colors"
                   >
-                    @vn_beauty_salon_academy
+                    @dubai_beauty_salon_academy
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 group">
+                <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0 group-hover:bg-gold/20 transition-colors">
+                  <Facebook className="w-5 h-5 text-gold" strokeWidth={1.5} />
+                </div>
+                <div>
+                  <h4 className="text-xs uppercase tracking-widest text-text-secondary mb-1 font-medium">Facebook</h4>
+                  <a
+                    href="https://www.facebook.com/106269829028864?ref=NONE_xav_ig_profile_page_web"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground font-light hover:text-gold transition-colors"
+                  >
+                    dubaibeautysalon_academy
                   </a>
                 </div>
               </div>
@@ -279,7 +309,7 @@ export function Contact() {
                 <div className="text-center">
                   <MapPin className="w-8 h-8 text-gold mx-auto mb-2" strokeWidth={1.5} />
                   <p className="text-text-secondary text-xs uppercase tracking-widest font-light">
-                    Kishan Pura Chowk, Jalandhar
+                    Dubai Beauty Salon &amp; Academy, Malegaon
                   </p>
                 </div>
               </div>

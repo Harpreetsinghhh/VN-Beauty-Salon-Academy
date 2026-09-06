@@ -79,7 +79,7 @@ export function Hero() {
             variants={textVariants}
             className="font-serif italic text-white text-5xl md:text-7xl lg:text-8xl xl:text-[7rem] leading-tight max-w-5xl mx-auto"
           >
-            Luxury Beauty Experience in Jalandhar
+            Dubai Beauty in Malegaon
           </motion.h1>
         </div>
 
@@ -96,7 +96,8 @@ export function Hero() {
             <span>Makeup</span> <span className="text-gold">•</span> 
             <span>Nails</span> <span className="text-gold">•</span> 
             <span>Aesthetics</span> <span className="text-gold">•</span> 
-            <span>Academy</span>
+            <span>Academy</span> <span className="text-gold">•</span>
+            <span>Malegaon&apos;s 1st Laser Salon</span>
           </motion.p>
         </div>
 

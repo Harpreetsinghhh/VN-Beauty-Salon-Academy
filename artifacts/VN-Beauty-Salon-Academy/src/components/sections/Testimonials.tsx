@@ -13,7 +13,7 @@ const testimonials = [
     id: 2,
     name: "Neha Verma",
     date: "February 2024",
-    text: "The best hair coloring experience I've had in Jalandhar. The products used were top notch and my hair feels healthier than ever."
+    text: "The best hair coloring experience I've had in Malegaon. The products used were top notch and my hair feels healthier than ever."
   },
   {
     id: 3,
