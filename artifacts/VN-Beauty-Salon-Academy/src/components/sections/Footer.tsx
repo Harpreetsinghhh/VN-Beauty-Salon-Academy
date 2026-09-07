@@ -63,9 +63,6 @@ export function Footer() {
 {/* Brand Column */}
           <motion.div variants={fadeUp}>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-gold flex items-center justify-center">
-                <span className="text-white font-serif text-xl font-bold italic"></span>
-              </div>
               <div>
                 <p className="font-serif text-xl font-medium leading-tight">Dubai Beauty</p>
                 <p className="text-[10px] uppercase tracking-[0.3em] text-gold/80">Salon & Academy by SHARMEEN HINDUSTANWALA</p>
