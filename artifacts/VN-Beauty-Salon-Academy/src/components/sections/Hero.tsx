@@ -50,7 +50,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 z-10"></div>
         <img 
-          src="/images/hero.jpg" 
+          src="/images/hero.webp" 
           alt="Luxury Beauty Salon Interior" 
           className="w-full h-full object-cover"
         />
