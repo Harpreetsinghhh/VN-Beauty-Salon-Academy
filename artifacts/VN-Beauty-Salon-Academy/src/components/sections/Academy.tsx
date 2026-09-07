@@ -69,13 +69,6 @@ export function Academy() {
                 </div>
               </div>
 
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="px-8 py-4 bg-gold text-white uppercase tracking-widest text-sm font-medium hover:bg-accent-brown transition-colors duration-300 shadow-lg"
-              >
-                Enroll Now
-              </motion.button>
             </motion.div>
           </div>
 

@@ -5,13 +5,13 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: "Priya Sharma",
+    name: "Ayesha Khan",
     date: "March 2024",
     text: "I got my bridal makeup done here and it was exactly what I dreamed of. The team was so professional and made me feel like an absolute queen."
   },
   {
     id: 2,
-    name: "Neha Verma",
+    name: "Sana Shaikh",
     date: "February 2024",
     text: "The best hair coloring experience I've had in Malegaon. The products used were top notch and my hair feels healthier than ever."
   },
@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Anjali Gupta",
+    name: "Fatima Ansari",
     date: "April 2024",
     text: "Took the professional makeup course at their academy. Best decision! The hands-on training gave me the confidence to start my own freelance business."
   },
