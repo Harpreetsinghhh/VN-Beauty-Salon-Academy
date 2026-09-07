@@ -89,7 +89,7 @@ export function BeforeAfter() {
             {/* After Image (Background) */}
             <div className="absolute inset-0 w-full h-full pointer-events-none">
               <img 
-                src="/images/after.PNG" 
+                src="/images/after.jpg" 
                 alt="After Transformation" 
                 className="absolute inset-0 w-full h-full object-cover"
                 draggable={false}
@@ -105,7 +105,7 @@ export function BeforeAfter() {
               style={{ width: `${sliderPosition}%` }}
             >
               <img 
-                src="/images/before.PNG" 
+                src="/images/before.jpg" 
                 alt="Before Transformation" 
                 className="absolute inset-0 h-full object-cover"
                 style={{ width: containerRef.current?.offsetWidth || '100vw', maxWidth: 'none' }}
