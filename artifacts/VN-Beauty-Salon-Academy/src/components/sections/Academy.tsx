@@ -106,10 +106,6 @@ export function Academy() {
                   <p className="font-sans text-sm font-light text-text-secondary">
                     {course.desc}
                   </p>
-                  <div className="mt-6 pt-4 border-t border-border flex justify-between items-center text-[10px] uppercase tracking-widest text-gold font-medium">
-                    <span>Certification</span>
-                    <span>→</span>
-                  </div>
                 </motion.div>
               ))}
             </div>

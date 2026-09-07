@@ -50,8 +50,8 @@ export function Navbar() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center gap-2 group"
           >
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gold flex items-center justify-center">
-              <span className="text-white font-serif text-lg md:text-xl font-bold italic">V</span>
+            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gold overflow-hidden flex items-center justify-center">
+              <img src="/logo.jpg" alt="Dubai Beauty logo" className="w-full h-full object-cover" />
             </div>
             <div className="hidden sm:block">
               <p className={`font-serif text-lg md:text-xl font-medium leading-tight transition-colors duration-300 ${scrolled ? 'text-foreground' : 'text-white'}`}>

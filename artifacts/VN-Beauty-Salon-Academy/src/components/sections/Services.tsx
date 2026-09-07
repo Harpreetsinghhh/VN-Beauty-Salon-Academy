@@ -119,10 +119,6 @@ export function Services() {
                 <p className="font-sans text-sm text-text-secondary font-light mb-6 line-clamp-2">
                   {service.description}
                 </p>
-                <div className="flex items-center text-gold text-xs uppercase tracking-widest font-medium group-hover:gap-4 transition-all duration-300">
-                  <span>Learn More</span>
-                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">→</span>
-                </div>
               </div>
               
               {/* Hover border effect */}

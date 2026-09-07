@@ -73,14 +73,6 @@ export function About() {
                   We don't just change how you look—we transform how you feel. Step into a world where every detail is curated for your comfort and every service is executed with perfection.
                 </p>
               </div>
-
-              <motion.button
-                className="mt-10 pb-2 border-b border-gold text-foreground uppercase tracking-widest text-sm font-medium hover:text-gold transition-colors duration-300 inline-flex items-center gap-2 group"
-                whileHover={{ gap: "1rem" }}
-              >
-                Discover Our Philosophy
-                <span className="text-gold transition-transform duration-300">→</span>
-              </motion.button>
             </motion.div>
           </div>
 
